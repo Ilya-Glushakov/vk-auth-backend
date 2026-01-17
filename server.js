@@ -2,7 +2,9 @@
 const express = require('express');
 const axios = require('axios');
 const cors = require('cors');
-
+window.location = 'myapp://auth?first_name=' + encodeURIComponent(user.first_name) +
+                  '&last_name=' + encodeURIComponent(user.last_name) +
+                  '&vk_id=' + user_id;
 const app = express();
 app.use(cors());
 
