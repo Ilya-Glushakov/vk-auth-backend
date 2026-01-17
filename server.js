@@ -8,8 +8,8 @@ app.use(cors());
 
 const PORT = process.env.PORT || 10000;
 
-const VK_APP_ID = '54422395'; // ← замените на ваш App ID
-const VK_CLIENT_SECRET = '9c552d3f9c552d3f9c552d3fbf9f6b464499c559c552d3ff53d93f520ad4da22633ed35'; // ← ваш secret
+const VK_APP_ID = '54424331'; // ← замените на ваш App ID
+const VK_CLIENT_SECRET = '612dc913612dc913612dc913056213ba186612d612dc91308468805a04a612ee2edd0d9'; // ← ваш secret
 const REDIRECT_URI = 'https://vk-auth-backend.onrender.com/callback'; // ← замените на ваш URL
 
 app.get('/login', (req, res) => {
