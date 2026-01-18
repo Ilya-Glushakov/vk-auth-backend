@@ -1,1 +1,8 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\myapp]
+@="URL:My Edu App Protocol"
+"URL Protocol"=""
+
+[HKEY_CLASSES_ROOT\myapp\shell\open\command]
 @="\"C:\\Users\\glusa\\OneDrive\\Desktop\\ВГТУ\\Дипломная работа\\WpfApp1\\WpfApp1\\bin\\Debug\\net10.0-windows\\WpfApp1.exe" \"%1\""
