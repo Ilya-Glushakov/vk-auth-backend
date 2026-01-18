@@ -11,7 +11,7 @@ const VK_CLIENT_SECRET = '1ff4b9431ff4b9431ff4b943781ccaca4811ff41ff4b94376982ba
 const REDIRECT_URI = 'https://vk-auth-backend.onrender.com/callback'; // ← без пробелов!
 
 app.get('/login', (req, res) => {
-    const authUrl = `https://oauth.vk.com/authorize?client_id=${VK_APP_ID}&redirect_uri=${encodeURIComponent(REDIRECT_URI)}&response_type=code&scope=email`;
+    const authUrl = 'https://oauth.vk.com/authorize?client_id=${VK_APP_ID}&redirect_uri=${REDIRECT_URI}&response_type=code&scope=email';
     res.redirect(authUrl);
 });
 
