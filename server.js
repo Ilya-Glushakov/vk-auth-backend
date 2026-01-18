@@ -7,7 +7,7 @@ app.use(cors());
 const PORT = process.env.PORT || 10000;
 // 🔑 Замените на ваши данные
 const VK_APP_ID = '54424331';
-const VK_CLIENT_SECRET = '612dc913612dc913612dc913056213ba186612d612dc91308468805a04a612ee2edd0d9';
+const VK_CLIENT_SECRET = 'ZDjKK79Zfmtt4xfUZMqQ';
 const REDIRECT_URI = 'https://vk-auth-backend.onrender.com/callback'; // ← без пробелов!
 
 app.get('/login', (req, res) => {
